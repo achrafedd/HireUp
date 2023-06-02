@@ -1,0 +1,52 @@
+.notification {
+    background-color: var(--black);
+    padding: 15px 0;
+}
+
+.notification .container {
+    text-align: center;
+}
+
+.notification span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.notification .btn {
+    font-size: 12px;
+    padding: 5px 10px !important;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.notification .btn:hover {
+    background-color: #fff;
+    color: var(--main-color);
+}
+
+.notification .icon {
+    display: inline-flex;
+    background-color: #24262d;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    float: right;
+    cursor: pointer;
+    color: var(--light-grey);
+    transition: all var(--time) linear;
+    -webkit-transition: all var(--time) linear;
+    -moz-transition: all var(--time) linear;
+    -ms-transition: all var(--time) linear;
+    -o-transition: all var(--time) linear;
+}
+
+.notification .icon:hover {
+    background-color: #fff;
+    color: var(--black);
+}

@@ -1,0 +1,58 @@
+.header {
+    position: sticky;
+    top: 0;
+    height: 90px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 100px;
+}
+
+.header .navbar ul {
+    display: flex;
+    gap: 35px;
+}
+
+.header .navbar ul a {
+    font-weight: 500;
+    color: var(--dark-grey);
+    transition: color var(--time) linear;
+    -webkit-transition: color var(--time) linear;
+    -moz-transition: color var(--time) linear;
+    -ms-transition: color var(--time) linear;
+    -o-transition: color var(--time) linear;
+}
+
+.header .navbar ul a:hover {
+    color: var(--main-color);
+}
+
+.header .navbar ul a.active {
+    color: var(--main-color);
+}
+
+.header .post {
+    color: var(--dark-grey);
+    font-weight: 500;
+    transition: color var(--time) linear;
+    -webkit-transition: color var(--time) linear;
+    -moz-transition: color var(--time) linear;
+    -ms-transition: color var(--time) linear;
+    -o-transition: color var(--time) linear;
+}
+
+.header .post:hover {
+    color: var(--main-color);
+}
+
+.header .btn {
+    margin-left: 20px;
+}
