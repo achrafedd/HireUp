@@ -10,10 +10,12 @@ const Notification = () => {
     return (
         <div className="notification">
             <div className="container">
-                <span>
-                    Discover over 1,000+ premium webflow components today!
-                </span>
-                <button className="btn">Unlock More</button>
+                <div className="box">
+                    <span>
+                        Discover over 1,000+ premium webflow components today!
+                    </span>
+                    <button className="btn">Unlock More</button>
+                </div>
                 <span className="icon">
                     <i
                         className="fa-solid fa-xmark"

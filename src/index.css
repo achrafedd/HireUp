@@ -84,3 +84,22 @@ ul {
 .btn:hover {
     background-color: #2e28dd;
 }
+
+.navbar ul {
+    display: flex;
+    gap: 35px;
+}
+
+.navbar ul a {
+    font-weight: 500;
+    color: var(--dark-grey);
+    transition: color var(--time) linear;
+    -webkit-transition: color var(--time) linear;
+    -moz-transition: color var(--time) linear;
+    -ms-transition: color var(--time) linear;
+    -o-transition: color var(--time) linear;
+}
+
+.navbar ul a:hover {
+    color: var(--main-color);
+}
