@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { HireUp } from "../../assets/images";
 
 import "./Footer.css";
@@ -19,19 +20,21 @@ const Footer = () => {
                                 <nav className="navbar">
                                     <ul>
                                         <li>
-                                            <a href="#">Home</a>
+                                            <Link to="/">Home</Link>
                                         </li>
                                         <li>
-                                            <a href="#">About</a>
+                                            <Link to="/company">About</Link>
                                         </li>
                                         <li>
-                                            <a href="#">Pricing</a>
+                                            <Link to="/pricing">Pricing</Link>
                                         </li>
                                         <li>
-                                            <a href="#">Jobs</a>
+                                            <Link to="/jobs">Jobs</Link>
                                         </li>
                                         <li>
-                                            <a href="#">Post a Job</a>
+                                            <Link to="/post-a-joLink">
+                                                Post a Job
+                                            </Link>
                                         </li>
                                     </ul>
                                 </nav>
@@ -41,16 +44,20 @@ const Footer = () => {
                                 <nav className="navbar">
                                     <ul>
                                         <li>
-                                            <a href="#">Sign In</a>
+                                            <Link to="/login">Sign In</Link>
                                         </li>
                                         <li>
-                                            <a href="#">Sign Up</a>
+                                            <Link to="/register">Sign Up</Link>
                                         </li>
                                         <li>
-                                            <a href="#">Reset Password</a>
+                                            <Link to="/reset-password">
+                                                Reset Password
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="#">User Account</a>
+                                            <Link to="/account">
+                                                User Account
+                                            </Link>
                                         </li>
                                     </ul>
                                 </nav>
@@ -60,13 +67,13 @@ const Footer = () => {
                                 <nav className="navbar">
                                     <ul>
                                         <li>
-                                            <a href="#">Style Guide</a>
+                                            <Link to="/">Style Guide</Link>
                                         </li>
                                         <li>
-                                            <a href="#">License</a>
+                                            <Link to="/">License</Link>
                                         </li>
                                         <li>
-                                            <a href="#">Changelog</a>
+                                            <Link to="/">Changelog</Link>
                                         </li>
                                     </ul>
                                 </nav>

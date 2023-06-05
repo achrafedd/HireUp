@@ -27,6 +27,11 @@ import Signup from "./Signup Background.svg";
 import Avatar01 from "./Testimonial Avatar (1).webp";
 import Avatar from "./Testimonial Avatar.webp";
 import Webclip from "./Webclip.svg";
+import Dribble from "./Dribble Icon.svg";
+import Facebook from "./Facebook Icon.svg";
+import Paypal from "./PayPal Icon.svg";
+import Spotify from "./Spotify Icon.svg";
+import Toko from "./TokoPedia Icon.svg";
 
 export {
     About01,
@@ -58,4 +63,9 @@ export {
     Avatar,
     Avatar01,
     Webclip,
+    Dribble,
+    Paypal,
+    Facebook,
+    Spotify,
+    Toko,
 };

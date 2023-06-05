@@ -1,0 +1,47 @@
+.jobs {
+    padding: var(--padding-Y) 0;
+}
+
+.jobs .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.jobs .left {
+    width: 50%;
+}
+
+.jobs .summry {
+    color: var(--dark-grey);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.jobs .right {
+    width: 50%;
+    text-align: right;
+    align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+    .jobs .top {
+        flex-direction: column;
+    }
+
+    .jobs .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .jobs .right {
+        align-self: flex-start;
+    }
+}
+
+.jobs .jobs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}

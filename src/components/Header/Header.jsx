@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { HireUp } from "../../assets/images";
 
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [width, setWidth] = useState(0);
@@ -22,28 +23,28 @@ const Header = () => {
                     <nav className="navbar">
                         <ul>
                             <li>
-                                <a href="" className="active">
+                                <Link to="/" className="active">
                                     Home
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="">Company</a>
+                                <Link to="/company">Company</Link>
                             </li>
                             <li>
-                                <a href="">Browse</a>
+                                <Link to="/browse">Browse</Link>
                             </li>
                             <li>
-                                <a href="">Blog</a>
+                                <Link to="/blog">Blog</Link>
                             </li>
                         </ul>
                     </nav>
                     <div>
-                        <a href="/login" className="post">
+                        <Link to="/login" className="post">
                             Post a Job
-                        </a>
-                        <a href="/login" className="btn">
+                        </Link>
+                        <Link to="/login" className="btn">
                             Login
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </header>
@@ -66,24 +67,24 @@ const Header = () => {
                     <nav className={`navbar ${active && "active"}`}>
                         <ul>
                             <li>
-                                <a href="" className="active">
+                                <Link to="/" className="active">
                                     Home
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="">Company</a>
+                                <Link to="/company">Company</Link>
                             </li>
                             <li>
-                                <a href="">Browse</a>
+                                <Link to="/browse">Browse</Link>
                             </li>
                             <li>
-                                <a href="">Blog</a>
+                                <Link to="/blog">Blog</Link>
                             </li>
                         </ul>
                         <div className="login">
-                            <a href="/login" className="btn">
+                            <Link to="/login" className="btn">
                                 Login
-                            </a>
+                            </Link>
                         </div>
                     </nav>
                 </div>

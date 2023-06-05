@@ -8,7 +8,7 @@
     --dark-grey: #3e404c;
     --light-grey: #84889a;
     /* others */
-    --padding-Y: 100px 0;
+    --padding-Y: 100px;
     --time: 300ms;
 }
 
@@ -22,7 +22,9 @@ html {
     margin: 0;
 }
 
-body {
+body,
+input,
+button {
     font-family: "Inter", sans-serif;
 }
 
@@ -102,4 +104,15 @@ ul {
 
 .navbar ul a:hover {
     color: var(--main-color);
+}
+
+.title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Archivo, sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 30px;
 }

@@ -6,9 +6,9 @@
 }
 
 .notification .container {
-    text-align: center;
     display: flex;
     position: relative;
+    justify-content: center;
     padding: 15px;
 }
 
@@ -19,7 +19,7 @@
     }
 }
 
-.box {
+.notification .box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
